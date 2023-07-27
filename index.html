@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="count-container"><span class="count">0</span></div>
+        <div class="flex-container">
+          <button class="counter-button buttons" onclick="clickToCount()">
+            Count
+          </button>
+          <button class="save-button buttons" onclick="clickToSave()">
+            Save
+          </button>
+        </div>
+        <button class="reset-button buttons" onclick="clickToReset()">
+          Reset
+        </button>
+
+       
+        <h3>Recent count:</h3>
+            <span class="saved-count"></span>
+      </div>
+    <h4>Note: You can press "Spacebar" to Count, "Enter" to Save and "Delete" to Reset</h4>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
